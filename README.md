@@ -4,6 +4,9 @@ MediBot is an intelligent chatbot built with **LangChain**, **Hugging Face Infer
 
 ---
 
+## LIVE
+The app is now live on streamlit and you can view it from [here](https://medibot-by-sks.streamlit.app/)
+
 ## 🚀 Features
 
 * RAG pipeline using FAISS for semantic search
