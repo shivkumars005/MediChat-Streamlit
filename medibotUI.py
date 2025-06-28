@@ -1,5 +1,5 @@
-import streamlit as st
 import os
+import streamlit as st
 
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -18,7 +18,7 @@ def set_custom_prompt(CUSTOM_PROMPT_TEMPLATE):
     )
 
 def main():
-    st.set_page_config(page_title="MediBot", page_icon=":robot:", layout="wide")
+    st.set_page_config(page_title="MediBot", page_icon="Images/favicon.ico", layout="wide")
     st.title("Ask MediBot!")
     if "messages" not in st.session_state:
         st.session_state.messages = []
